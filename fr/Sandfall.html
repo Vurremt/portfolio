@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Evahn LE GAL - Texture animée</title>
+        <link rel="stylesheet" href="../format.css">
+    </head>
+    
+    <body>
+
+        <div class="wrapper">
+            <header>
+                <h1 id="nom-site">Evahn LE GAL - Texture animée</h1>
+            </header>
+
+            <div id="container">
+                <nav>
+                    <div id="home">
+                        <a href="./index.html" class="text-home">Home</a>
+                    </div>
+                    <ul>
+                        <li><a href="./pdf/Evahn LE GAL CV.pdf" target="_blank">CV PDF</a></li>
+                        <li><a href="https://github.com/Vurremt">GitHub</a></li>
+                        <li><a href="https://github.com/GuillaumeAssailly/GutterEngine">Gutter Engine</a></li>
+                        <li><a href="./Portfolio.html">Portfolio Game Design</a></li>
+                        <li class="dropdown"><img src="../img/sphere.png"/>
+                            <div class="dd">
+                                <ul>
+                                    <li><a href="../en/Sandfall.html">English</a></li>
+                                    <li><a href="./Sandfall.html">Français</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>  
+            </div>
+
+            
+            <section>
+                <article class="body_left">
+                    <div class="display-part">
+                        <img src="../img/ink.jpg" alt="Texture originale" />
+                    </div>
+                    <div class='half-circle-left'></div>
+                    <div class="text-part">
+                        <h2>
+                            La texture originale
+                        </h2>
+                        <p>
+                            Dans le cadre de l'initiative #MadeWithSubstance, permettant de mettre en valeur les créations originales des artistes avec les logiciels de la suite Adobe Substance 3D, et avec la sortie du jeu Clair Obscur: Expedition 33 en même temps que mon stage, j'ai pu voir toutes les productions artistiques 3D du jeu sortir sur ArtStation au fur et à mesure.
+                            <br>
+                            <br>
+                            Il y avait de magnifiques créations sur Substance Painter, mais personnellement, j'étais plus attiré par les créations dans le logiciel sur lequel je travaillais, Substance Designer.
+                            Les créations qui m'ont particulièrement marquées sont celles d'Alexandre Breton, où j'ai été sidéré par ce qu'il arrivait à faire avec le logiciel.
+                            <br>
+                            <a href="https://www.artstation.com/artwork/L4vOqK">>> Cette texture modulable dans un outil externe m'a impressionné</a>
+                            <br>
+                            <br>
+                            Une autre création qui m'a impressionné est une texture de mer d'encre qui est animée via shaders dans Unreal Engine, puisqu'il n'est pas possible de le faire dans Designer.
+                            Cela m'a particulièrement marqué puisque c'était le sujet de mon stage.
+                            <br>
+                            <a href="https://www.artstation.com/artwork/Zl9zOx">>> La texture animée</a>
+                        </p>
+                    </div>                
+                </article>
+
+                <article class="body_right">
+                    <div class="display-part">
+                        <video autoplay muted loop>
+                            <source src="../img/home/ink animated.mp4"  alt="Texture animée" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class='half-circle-right'></div>
+                    <div class="text-part">
+                        <h2>
+                            Ma tentative de la reproduire
+                        </h2>
+                        <p>
+                            J'ai donc essayé de la reproduire, avec ma propre vision, en utilisant le système d'animation que j'ai developpé au cours de mon stage.
+                            <br>
+                            <br>
+                            En partant d'une base d'eau basique, j'ai essayé de rajouter des vagues, de travailler la réflexivité pour se rapprocher d'une texture d'encre, et j'ai ajouté des variations avec des tâches sombres stagnantes d'huile, typique de l'encre qui resterait trop longtemps étalée.
+                            <br>
+                            <br>
+                            J'ai également essayé de travailler la hauteur et la normale, pour avoir des paquets informes réalistes, mais j'ai eu un peu de mal à reproduire le comportement de la texture originale, sur la mienne, cela fait encore trop "vagues" et pas "paquets".
+                            <br>
+                            <br>
+                            Enfin, l'animation a été ajoutée avec le système que j'ai développé, malheureusement confidentiel, mais qui permet d'obtenir facilement cet effet très léger de mouvement.
+                            J'ai essayé, comme sur la texture originale, de donner du mouvement mais pas un déplacement, c'est à dire que les paquets d'encre reviennent toujours à leurs places originales pour ne pas créer d'incohérences.
+                            <br>
+                            <br>
+                            <a href="../img/home/ink animated.mp4" target="_blank">>> La texture en mp4</a>
+                        </p>
+                    </div>                
+                </article>
+            </section>
+        </div>
+
+        <footer id="footer">
+            <div class ="ref_centre">
+                <p class="text-footer">Evahn LE GAL / Avec hebergement web par GitHub</p>
+            </div>
+        </footer>
+
+        <script src="../Carousel.js"></script>
+        <noscript>Javascript est désactivé dans votre navigateur web. Certaines fonctionnalités ne fonctionneront pas correctement.</noscript>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Evahn LE GAL - Animated Texture</title>
+    <link rel="stylesheet" href="../format.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <h1 id="nom-site">Evahn LE GAL - Animated Texture</h1>
+        </header>
+
+        <div id="container">
+            <nav>
+                <div id="home">
+                    <a href="../index.html" class="text-home">Home</a>
+                </div>
+                <ul>
+                    <li><a href="./pdf/Evahn LE GAL CV en.pdf" target="_blank">CV PDF</a></li>
+                    <li><a href="https://github.com/Vurremt">GitHub</a></li>
+                    <li><a href="https://github.com/GuillaumeAssailly/GutterEngine">Gutter Engine</a></li>
+                    <li><a href="../fr/Portfolio.html">Game Design Portfolio</a></li>
+                    <li class="dropdown"><img src="../img/sphere.png"/>
+                        <div class="dd">
+                            <ul>
+                                <li><a href="./Sandfall.html">English</a></li>
+                                <li><a href="../fr/Sandfall.html">Français</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>  
+        </div>
+
+        <section>
+            <article class="body_left">
+                <div class="display-part">
+                    <img src="../img/ink.jpg" alt="Original texture" />
+                </div>
+                <div class='half-circle-left'></div>
+                <div class="text-part">
+                    <h2>The original texture</h2>
+                    <p>
+                        As part of the #MadeWithSubstance initiative, which highlights original creations by artists using Adobe Substance 3D software, and with the release of the game Clair Obscur: Expedition 33 coinciding with my internship, I was able to see all the 3D artistic productions from the game appear on ArtStation over time.
+                        <br><br>
+                        There were beautiful creations made with Substance Painter, but personally, I was more drawn to the ones created in the software I was working on: Substance Designer.
+                        The creations that particularly stood out to me were those by Alexandre Breton, where I was amazed by what he could achieve with the software.
+                        <br>
+                        <a href="https://www.artstation.com/artwork/L4vOqK">>> This modular texture in an external tool impressed me</a>
+                        <br><br>
+                        Another creation that impressed me was an ink sea texture animated via shaders in Unreal Engine, since it's not possible to do that in Designer.
+                        This struck me especially because it was the subject of my internship.
+                        <br>
+                        <a href="https://www.artstation.com/artwork/Zl9zOx">>> The animated texture</a>
+                    </p>
+                </div>                
+            </article>
+
+            <article class="body_right">
+                <div class="display-part">
+                    <video autoplay muted loop>
+                        <source src="../img/home/ink animated.mp4" alt="Animated texture" type="video/mp4">
+                    </video>
+                </div>
+                <div class='half-circle-right'></div>
+                <div class="text-part">
+                    <h2>My attempt to recreate it</h2>
+                    <p>
+                        So I tried to recreate it, with my own vision, using the animation system I developed during my internship.
+                        <br><br>
+                        Starting from a basic water texture, I tried to add waves, work on reflectivity to get closer to an ink texture, and added variations with stagnant dark oil spots, typical of ink that has been spread for too long.
+                        <br><br>
+                        I also tried to work on height and normals to get realistic shapeless blobs, but I struggled to reproduce the behavior of the original texture — mine still looks too much like "waves" and not enough like "blobs".
+                        <br><br>
+                        Finally, the animation was added using the system I developed, unfortunately confidential, but which allows for this subtle movement effect.
+                        I tried, like in the original texture, to give a sense of motion without displacement — meaning the ink blobs always return to their original positions to avoid inconsistencies.
+                        <br><br>
+                        <a href="../img/home/ink animated.mp4" target="_blank">>> The texture in mp4</a>
+                    </p>
+                </div>                
+            </article>
+        </section>
+    </div>
+
+    <footer id="footer">
+        <div class="ref_centre">
+            <p class="text-footer">Evahn LE GAL / Hosted via GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="../Carousel.js"></script>
+    <noscript>JavaScript is disabled in your browser. Some features may not work properly.</noscript>
+</body>
+</html>
